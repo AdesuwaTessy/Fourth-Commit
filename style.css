@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Dancing+Script:wght@500&family=Lexend+Deca:wght@100&family=Lobster&family=Poppins:ital,wght@1,100&family=Tapestry&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(Images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    margin: 80px auto;
+    padding: 60px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    left: 50px;    
+    max-width: 1440px;
+}
+.first-flex{
+    height: 380px;
+    width: 40%;
+    margin-top: 80px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-family: 'Poppins';
+    color: white;
+}
+.paragraph{
+    color: white;
+    font-family: 'Poppins';
+}
+.second-flex .Button1{
+    margin-bottom: 25px;
+}
+.second-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.form-group{
+    background-color: white;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 0px 45px;
+    box-shadow: 0px 8px 8px rgb(44, 41, 41);
+}
+
+.Button1{
+    background-color: hsl(248, 32%, 49%);
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 30px;
+    width: 590px;
+    font-weight: 700px;
+}
+.Button1 a{
+    color: white;
+    text-decoration: none;
+}
+.FirstName{
+    border-radius: 8px;
+    padding: 20px;
+    height: 15px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 700px;
+}
+.LastName{
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    height: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 700px;
+}
+.Email{
+    border-radius: 8px;
+    padding: 20px;
+    height: 1px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 700px;
+}
+.password{
+    border-radius: 8px;
+    padding: 20px;
+    height: 1px;
+    width: 350px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 700px;
+}
+.Button2{
+    background-color: hsl(154, 59%, 51%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
