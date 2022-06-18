@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Dancing+Script:wght@500&family=Lexend+Deca:wght@100&family=Lobster&family=Poppins:ital,wght@1,100&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Dancing+Script:wght@500&family=Lexend+Deca:wght@100&family=Lobster&family=Poppins:ital,wght@0,500;0,700;1,100;1,600&family=Tapestry&display=swap');
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -8,20 +8,16 @@ body{
     background-image: url(Images/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
     margin: 80px auto;
-    padding: 60px;
     height: 500px;
-    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    left: 50px;    
     max-width: 1440px;
 }
-.first-flex{
+.First-flex{
     height: 380px;
     width: 40%;
-    margin-top: 80px;
+    margin-top: 25px;
     padding: 60px;
     display: flex;
     flex-direction: column;
@@ -34,26 +30,15 @@ body{
 }
 .paragraph{
     color: white;
-    font-family: 'Poppins';
-}
-.second-flex .Button1{
-    margin-bottom: 25px;
-}
-.second-flex{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-
 }
 .form-group{
     background-color: white;
-    height: 400px;
-    width: 50%;
+    height: 450px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 0px 45px;
     box-shadow: 0px 8px 8px rgb(44, 41, 41);
 }
@@ -66,6 +51,8 @@ body{
     margin-top: 30px;
     width: 590px;
     font-weight: 700px;
+    margin-bottom: 25px;
+    box-shadow: 0px 3px 3px grey;
 }
 .Button1 a{
     color: white;
@@ -75,9 +62,9 @@ body{
     border-radius: 8px;
     padding: 20px;
     height: 15px;
-    width: 400px;
+    width: 450px;
     margin-bottom: 10px;
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 16px;
     font-family: 'Poppins';
     font-weight: 700px;
@@ -85,7 +72,7 @@ body{
 .LastName{
     border-radius: 8px;
     padding: 20px;
-    width: 400px;
+    width: 450px;
     height: 15px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -97,7 +84,7 @@ body{
     border-radius: 8px;
     padding: 20px;
     height: 1px;
-    width: 400px;
+    width: 450px;
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 16px;
@@ -108,23 +95,62 @@ body{
     border-radius: 8px;
     padding: 20px;
     height: 1px;
-    width: 350px;
+    width: 450px;
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 16px;
     font-family: 'Poppins';
     font-weight: 700px;
 }
-.Button2{
+.Button-2{
     background-color: hsl(154, 59%, 51%);
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 450px;
     font-weight: 700px;
-    color: white;
+    
+}
+.Button-2 a{
     text-transform: uppercase;
     text-decoration: none;
-
+    color: white;
 }
-
+.paragraph-2{
+    margin-top: 10px;
+    font-size: 12px;
+    color: grey;
+}
+.paragraph-2 a{
+    color: red;
+    text-decoration: none;
+}
+@media screen and (max-width:769px){
+    body{
+        width: 100%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+    }
+    .First-flex{
+        width: 100%;
+        margin: 0px auto;
+        padding: 40px;
+    }
+    .second-flex{
+        margin-bottom: 30px;
+    }
+    .form-group{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .Button1{
+        position: relative;
+        left: 20px;
+        width: 500px;
+    }
+}
